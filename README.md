@@ -14,7 +14,7 @@ Various ideas and methodologies explored during this research are documented in 
 
 The main detection method is implemented in `main.py` with the following function:
 
-```
+```python
 def backdoor_model_detector(model: PreActResNet, 
                             num_classes: int,
                             test_images_folder_address: str,
