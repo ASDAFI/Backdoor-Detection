@@ -14,7 +14,7 @@ Various ideas and methodologies explored during this research are documented in 
 
 The main detection method is implemented in `main.py` with the following function:
 
-```python
+```
 def backdoor_model_detector(model: PreActResNet, 
                             num_classes: int,
                             test_images_folder_address: str,
@@ -24,3 +24,14 @@ def backdoor_model_detector(model: PreActResNet,
     Detects whether the given model is malicious (contains a backdoor) or not.
     """
     # Function implementation
+```
+    
+This function analyzes the provided `PreActResNet` model to determine if it has been compromised by a backdoor attack.
+
+## Related Works
+
+Interesting articles and novel ideas are stored in the `related_works` directory.
+
+## Results
+
+This model was developed for the [Rayan Trustworthy AI Challenge](https://ai.rayan.global), achieving a score of **65/100** and ranking **12th**.
